@@ -3,6 +3,20 @@
     margin: 0 5px;
 }
 
-.carousel img{
-    
+.banner-video{
+    background-image: url(/img/bg.jpg);
+    position: relative;
+    text-align: center;
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner-video img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+
 }
