@@ -1,3 +1,9 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
 .navbar-nav .fab{
     font-size: 1.5em;
     margin: 0 5px;
@@ -17,12 +23,18 @@
 
 .btn{
     background-color:transparent;
-    border-color: 2px solid white;
+    border-color:#f8f9fa;
+    border: 2px solid white;
     color: white;
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    cursor: pointer;
 }
+
+
+
+
 
 .banner-video{
     background-image: url(/img/bg.jpg);
