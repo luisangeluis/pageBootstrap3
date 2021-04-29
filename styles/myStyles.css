@@ -4,10 +4,30 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
+/*Navbar*/
 .navbar-nav .fab{
     font-size: 1.5em;
     margin: 0 5px;
 }
+
+.collapse ul li{
+    font-size: 20px;
+}
+
+.sps--abv{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sps--blw{
+    background-color: black;
+    color: #fff;
+}
+
+
+
 /*Carousel*/
 .carousel-caption{
     left: 15%;
