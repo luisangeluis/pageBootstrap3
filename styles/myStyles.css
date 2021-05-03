@@ -9,9 +9,16 @@ h1,h2,h3,h4,h5,h6{
     font-size: 1.5em;
     margin: 0 5px;
 }
+.navbar-nav{
+    font-size: 1.5em;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
 
 .collapse ul li{
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .sps--abv{
@@ -21,11 +28,23 @@ h1,h2,h3,h4,h5,h6{
     font-size: 15px;
 }
 
+
+
 .sps--blw{
     background-color: black;
     color: #fff;
 }
 
+.navbar.sps--abv .navbar-brand{
+    /* background-color: red; */
+    width: 300px;
+
+}
+
+/* .navbar-collapse.show li{
+    /* background-color: gray;
+    color: gray;
+} */
 
 
 /*Carousel*/
@@ -34,7 +53,7 @@ h1,h2,h3,h4,h5,h6{
     right: 0;
     top:40%;
     bottom: 20px;
-    margin: auto; 
+    margin: auto;
     padding-top:20px;
     padding-bottom:20px;
     text-align: left;
@@ -81,3 +100,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+@media(max-width:990px){
+    .navbar-collapse.show .nav-link{
+        color: white !important;
+        font-size: 30px !important;
+        font-weight: bold;
+        /* transition: 1s; */
+    }
+}
